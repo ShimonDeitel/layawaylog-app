@@ -1,0 +1,40 @@
+{
+  "identifier" : "LayawayProducts",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "layawaylog_pro_group",
+      "localizations" : [],
+      "name" : "Layaway Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "com.shimondeitel.layawaylog.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Layaway Pro - Auto payment reminders and overdue balance alerts",
+              "displayName" : "Layaway Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.layawaylog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Layaway Pro Monthly",
+          "subscriptionGroupID" : "layawaylog_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
